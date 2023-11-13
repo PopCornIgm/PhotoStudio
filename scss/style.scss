@@ -81,16 +81,11 @@ body {
   display: inline-block;
   text-align: center;
   margin-top: 40px;
-  padding: 23px 0 0 0;
+  padding: 0;
   outline: none;
   text-decoration: none;
   text-transform: uppercase;
   transition-property: background-color, box-shadow;
-}
-.button:hover {
-  background-color: rgb(0, 255, 98);
-  transition-duration: 1s, 2s;
-  box-shadow: 0 5px 0px rgb(1, 108, 42);
 }
 
 .works {
@@ -269,30 +264,5 @@ body {
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
-  }
-}
-.footer {
-  height: 340px;
-  background-image: url(/images/banner.jpg);
-}
-.footer__logo {
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
-  border-radius: 50%;
-  animation-name: white-circle;
-  animation-duration: 2s;
-  display: inline-block;
-  animation-fill-mode: forwards;
-}
-
-@keyframes white-circle {
-  0% {
-    background-color: #fff;
-    margin-left: 0px;
-  }
-  100% {
-    background-color: #01ff9d;
-    margin-left: 90%;
   }
 }
