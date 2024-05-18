@@ -22,12 +22,13 @@ body {
   margin-top: 40px;
 }
 .title .properties {
-  color: white;
   display: flex;
   width: 600px;
   font-size: 13px;
   justify-content: space-between;
   margin-top: 40px;
+  color: #fff;
+  display: none;
 }
 .title :first-child {
   padding: 0px 60px 0px 0px;
@@ -76,7 +77,7 @@ body {
   display: inline-block;
   text-align: center;
   margin-top: 40px;
-  padding: 23px 0 0 0;
+  padding: 0;
   outline: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -267,31 +268,4 @@ body {
   outline: none;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.footer {
-  height: 340px;
-  background-image: url(/images/banner.jpg);
-}
-
-.footer__logo {
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
-  border-radius: 50%;
-  animation-name: white-circle;
-  animation-duration: 2s;
-  display: inline-block;
-  animation-fill-mode: forwards;
-}
-
-@keyframes white-circle {
-  0% {
-    background-color: #fff;
-    margin-left: 0px;
-  }
-  100% {
-    background-color: #01ff9d;
-    margin-left: 90%;
-  }
 }/*# sourceMappingURL=style.css.map */
