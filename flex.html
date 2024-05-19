@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
 
-    <title>Document</title>
+    <title>FotoStudio</title>
   </head>
 
   <body>
@@ -15,25 +15,19 @@
         <div class="logo">
           <img class="images" src="/images/logo@2x.png" alt="логотип " />
         </div>
-
-        <div class="properties">
-          <span>featers</span>
-          <span>works</span>
-          <span>our team</span>
-          <span>testimonials</span>
-          <span>downloads</span>
-        </div>
       </div>
 
       <div class="features">
-        <p>Your Favorite One Page Multi Purpose Template</p>
+        <h1 class="features_title">
+          Your Favorite One Page Multi Purpose Template
+        </h1>
         <p class="foreword">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           architecto, provident pariatur unde praesentium facere enim.
         </p>
       </div>
       <div class="overlay">
-        <button class="button" href="" id="btn">find out more</button>
+        <a class="button" href="#openModal">Find out more</a>
       </div>
     </header>
 
@@ -67,6 +61,28 @@
         </p>
       </div>
     </div>
+
+    <div id="openModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Привет</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="modal-body">
+            <p>Функционал находися в разработке</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <h2 class="modal__title">Функционал находися в разработке</h2>
+        </div>
+      </div>
+    </div> -->
     <div class="works2">
       <div class="subtitle">
         <img class="subimg" src="/images/Layer 46.png" alt="значок" />
@@ -176,16 +192,13 @@
     <div class="testimonials_footers">
       <p>Are You Ready to Start? Download Now For Free!</p>
       <p>Fusce dapibus, tellus ac cursus commodo</p>
-      <a class="testimonials_button" href="https://oddler.ru/blog/i63"
-        >download here</a
-      >
+      <a class="testimonials_button" href="#openModal">Find out more</a>
     </div>
 
     <footer>
-      <div class="footer">
-        <p>location</p>
-      </div>
+      <div class="footer"></div>
     </footer>
     <script src="js/test.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
